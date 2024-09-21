@@ -56,6 +56,9 @@ ul{
 .nav-item:focus {
   color: var(--ocean);
 }
+.address{
+  font-style: normal;
+}
 
 .address-item {
   line-height: 1.5;
@@ -88,6 +91,18 @@ ul{
   font-weight: 500;
   line-height: 1.5;
   color: var(--white);
+}
+
+.minestone-item-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.minestone-item-text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .order-button:hover,
